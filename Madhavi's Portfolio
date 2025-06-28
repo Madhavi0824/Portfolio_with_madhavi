@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Web with Madhavi</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 20px auto; padding: 0 10px; background-color: #f9f9f9; }
+    h1 { text-align: center; color: #2f4f4f; }
+    .intro { text-align: center; margin-bottom: 30px; }
+    .projects { display: grid; grid-template-columns: 1fr; gap: 20px; }
+    .project { background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .project h2 { margin-top: 0; color: #333; }
+    .project p { color: #555; }
+    .project a { display: inline-block; margin-top: 10px; padding: 8px 12px; background: #007bff; color: white; text-decoration: none; border-radius: 4px; }
+    .project a:hover { background: #0056b3; }
+  </style>
+</head>
+<body>
+
+  <h1>Madhavi's Web Portfolio</h1>
+  <p class="intro">Here are a few of the websites I’ve built to learn and grow in web development:</p>
+
+  <div class="projects">
+    <div class="project">
+      <h2>Welcome to Madhavi</h2>
+      <p>An introductory page I created to showcase my name and background.</p>
+      <a href="Web_With_Madhavi.html" target="_blank">View Live Site</a>
+    </div>
+
+    <div class="project">
+      <h2>My Web Development Journey</h2>
+      <p>A site where I share what I’m learning in HTML, CSS, and JS.</p>
+      <a href="Madhavi_Codes.html" target="_blank">View Live Site</a>
+    </div>
+
+    <div class="project">
+      <h2>The Dev Journey of Madhavi</h2>
+      <p>A more detailed page with sections like Hobbies, Skills, and Contact.</p>
+      <a href="Maddy11.html" target="_blank">View Live Site</a>
+    </div>
+
+    <div class="project">
+      <h2>Madhavi’s Guide to Himachal</h2>
+      <p>I created this travel guide to showcase places in Himachal Pradesh.</p>
+      <a href="Travel_with_Madhavi.html" target="_blank">View Live Site</a>
+    </div>
+  </div>
+
+</body>
+</html>
